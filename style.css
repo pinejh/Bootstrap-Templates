@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Asap|Palanquin+Dark');
+
+* {
+    font-family: 'Asap', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    margin-bottom: 0 !important;
+}
+nav a {
+    font-family: 'Palanquin Dark', sans-serif;
+}
+
+.navbar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 2.5px;
+}
+.nav>li>a {
+    border-radius: 5px !important;
+}
+.nav>li>a:focus {
+    background-color: #e7e7e7 !important;
+}
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    min-width: 320px;
+}
+
+.bg-1 {
+    background-color: #73d2f3;
+}
+
+.propic {
+    width: 125px;
+    height: 125px;
+    box-shadow: 0 5px 16px rgba(0, 0, 0, .2);
+    border: 3px solid white;
+}
+
+.bg-2 {
+    background-color: #51515e;
+    color: #ffffff;
+}
+
+.bg-2>p {
+    padding: 0 5% 0 5%;
+}
+
+@media only screen and (min-width: 500px) {
+    .propic {
+        width: 200px !important;
+        height: 200px !important;
+    }
+    .bg-2>p {
+        padding: 0 12.5% !important;
+    }
+    #contact {
+        width: 75% !important;
+        padding: 80px 60px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    #contact {
+        width: 100% !important;
+        padding: 80px 60px;
+    }
+}
+
+#contact {
+    width: 95%;
+    background-color: #51515e;
+    color: #ffffff;
+    padding: 40px 20px;
+}
+#contact .list-group-item {
+    color: #51515e;
+    height: 45px;
+}
+#contact b {
+    font-family: 'Palanquin Dark', sans-serif;
+}
+
+.third>img {
+    width: 150px;
+    height: 150px;
+    border: 5px solid white;
+    box-shadow: 0 2.5px 5px rgba(0, 0, 0, .2);
+}

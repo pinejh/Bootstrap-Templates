@@ -93,6 +93,9 @@ nav a {
     font-family: 'Palanquin Dark', sans-serif;
 }
 
+.third {
+    color: #515154;
+}
 .third>img {
     width: 150px;
     height: 150px;
@@ -124,4 +127,9 @@ nav a {
 }
 #footer>div>ul>li>a:hover {
     color: #d1d1d4;
+}
+
+.btn-primary {
+    background-color: #44bbff !important;
+    border: none !important;
 }

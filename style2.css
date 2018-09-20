@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Asap|Palanquin+Dark');
+
+* {
+    font-family: 'Palanquin+Dark', sans-serif;
+    color: #2e2e30
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    margin-bottom: 0 !important;
+}
+nav a {
+    font-family: 'Palanquin Dark', sans-serif !important;
+}
+
+html {
+    background-color: #515154;
+}
+
+#slidercontainer {
+    padding: 0;
+}
+
+#slider {
+    padding: 0;
+}
+
+#container {
+    background-color: #fff;
+    padding-bottom: 1.5em;
+}
+
+.img-thumbnail {
+    margin: 1em auto !important;
+}
+
+#footer {
+    background-color: #2e2e30;
+    color: #515154;
+    padding-top: 3em;
+    padding-bottom: 2em;
+}
+
+#footer>div>div>p {
+    line-height: 8px;
+    font-size: .9em;
+}
+
+#footer>div>ul {
+    text-align: right;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+#footer>div>ul>li>a {
+    text-decoration: none;
+    color: #515154;
+}
+#footer>div>ul>li>a:hover {
+    color: #d1d1d4;
+}
